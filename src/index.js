@@ -39,4 +39,10 @@ const siteContent = { // DO NOT CHANGE THIS OBJECT
   },
 };
 
-console.log('project wired!')
+const logoImg = document.querySelector('#logo-image')
+logoImg.src = siteContent.images['logo-img']
+
+const ctaImg = Document.query('#cta-img')
+console.log(ctaImg)
+
+
